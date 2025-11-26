@@ -1,0 +1,17 @@
+stage,style,group,action,confidence
+preflop,tight,premium,raise,0.9
+preflop,tight,strong,raise,0.8
+preflop,tight,speculative,call,0.55
+preflop,tight,trash,fold,0.85
+preflop,loose,premium,raise,0.9
+preflop,loose,strong,raise,0.75
+preflop,loose,speculative,call,0.65
+preflop,loose,trash,call,0.4
+preflop,aggressive,premium,raise,0.95
+preflop,aggressive,strong,raise,0.9
+preflop,aggressive,speculative,raise,0.7
+preflop,aggressive,trash,fold,0.7
+preflop,passive,premium,call,0.7
+preflop,passive,strong,call,0.7
+preflop,passive,speculative,call,0.6
+preflop,passive,trash,fold,0.9
