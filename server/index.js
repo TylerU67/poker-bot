@@ -6,9 +6,6 @@ import { loadRules, decideAction } from "./pokerEngine.js";
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-app.listen(PORT, () => {
-  console.log(`Server listening on port ${PORT}`);
-});
 // ====== Firebase Admin init ======
 /*
  * In Render, set env var:
@@ -27,7 +24,7 @@ admin.initializeApp({
 
 // ====== Middleware ======
 app.use(cors({
-  origin: process.env.CORS_ORIGIN || "*", // in production, set to your frontend URL
+  origin: process.env.CORS_ORIGIN || "*",
   credentials: true
 }));
 app.use(express.json());
